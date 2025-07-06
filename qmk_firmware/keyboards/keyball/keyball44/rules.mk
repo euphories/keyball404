@@ -5,7 +5,7 @@ MCU = atmega32u4
 BOOTLOADER = caterina
 
 # Link Time Optimization required for size.
-LTO_ENABLE = no
+LTO_ENABLE = yes
 
 # Build Options
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
